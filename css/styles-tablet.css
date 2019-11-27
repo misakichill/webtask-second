@@ -1,0 +1,107 @@
+/* タブレット */
+@media screen and (max-width: 768px) {
+ 
+    /* 全体 */
+   .top-wrap {
+      margin-bottom: 0;
+      height: 35rem;
+    }
+    .main-btn {
+      padding: 1rem 1.5rem;
+    }
+    .message-wrap {
+      padding: 3rem;
+    }
+    .about-message,
+    .sec-message,
+    .main-btn {
+      font-size: 1.2rem;
+    }
+  
+    /* ヘッダー */
+    .header {
+      height: 5rem;
+    }
+    .header-logo:after {
+      font-size: 1rem;
+    }
+    .header-title {
+      font-size: 1.8rem;
+    }
+    .header-subtitle {
+      font-size: 1.2rem;
+    }
+    /* ハンバーガーメニュー */
+    .nav-menu {
+     display: none; 
+    }
+    #show,
+    #close {
+      font-size: 3vw;
+      color: #fff;
+      cursor: pointer;
+    }
+    #hamburger-menu {
+      color: #fff;
+      text-align: center;
+      margin: 2.8rem 0;
+      position: relative;
+    }
+    #hamburger-menu.open,
+    #close.open,
+    #show.open {
+      display: block;
+    }
+    li {
+      display: block;
+      font-size: 2vw;
+      margin: 1.5rem 0;
+    }
+    .nav-li:after {
+      font-size: 1.5vw;
+    }
+    .header-sns-wrap {
+      position: absolute;
+      right: 5rem;
+      bottom: 1rem;
+    }
+    .top-sns-img {
+      padding-left: 3rem;
+    }
+    
+  
+    /* about */
+    .about {
+      padding-bottom: 3rem;
+    }
+    .about-message {
+      line-height: 2rem;
+    }
+    .about-left {
+      position: absolute;
+      top: 5rem;
+      left: 5rem;
+      z-index: 10;
+    }
+    .about-right {
+      position: relative;
+      padding-top: 17rem;
+      margin-left: auto;
+    }
+    .about-btn {
+      padding: 4rem 0 0 5rem;
+    }
+    .ar-main-img {
+      width: 30rem;
+    }
+    .ar-sub-img {
+      width: 15rem;
+      position: absolute;
+      top: 30rem;
+      left: -10rem;
+      z-index: 5;
+    }
+  
+  }
+  
+  

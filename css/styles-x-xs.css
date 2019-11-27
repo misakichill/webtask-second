@@ -1,0 +1,233 @@
+/* iPhone X / XS */
+@media screen and (max-width: 375px) {
+
+    /* 全体 */
+    .top-wrap {
+      display: block; /* ココで崩れる */
+      margin: 0;
+      width: 100%;
+      height: auto;
+    }
+    .top-left,
+    .food-top-right {
+      width: 75%;
+    }
+    .top-right,
+    .food-top-left {
+      width: 100%;
+  }
+    .sec-title {
+      font-size: 2.2rem;
+      padding-top: 2rem;
+      position: static;
+      text-align: center;
+    }
+    .sec-title:after {
+      display: block;
+      margin-left: 15rem;
+      margin-top: 2rem;
+      width: 45vw;
+      height: .2rem;
+      background: rgba(0, 0, 0, 0.8);
+    }
+    .sec-message {
+      font-size: 1.8rem;
+    }
+    .message-wrap {
+      margin: 4rem 0 2rem auto;
+    }
+    .main-btn {
+      font-size: 1.2rem;
+    }
+    .rs {
+      display: inline;
+    }
+  
+  
+    /* ヘッダー */
+    #hamburger-menu.open {
+      height: 51rem;
+    }
+    .smp-title {
+      width: 18rem;
+    }
+    li {
+      font-size: 4vw;
+      margin: 3rem 0;
+    }
+    .nav-li:after {
+      font-size: 1.5vw;
+    }
+    .header-sns-wrap {
+      display: block;
+      position: relative;
+      margin: 3rem auto;
+      right: 0;
+      bottom: 0;
+    }
+  
+    /* top */
+    #top-image {
+      height: 60rem;
+      object-fit: cover;
+    }
+    .top:before {
+      display: none;
+    }
+  
+  
+    /* about */
+    .about-wrap {
+      margin: 0 auto;  
+      width: 100%;
+    }
+    .about {
+      padding-bottom: 34rem;
+    }
+    .gray-box {
+      display: block;
+      width: 60%;
+      height: 80%;
+      position: absolute;
+      top: 5rem;
+      left: auto;
+      right: 0;
+      transform: none;
+      z-index: -100;
+    }
+    .about-title {
+      font-size: 2.2rem;
+      text-align: center;
+      margin: 5rem auto;
+    }
+    .about-left {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .about-message {
+      font-size: 1.3rem;
+      letter-spacing: .2rem;
+    }
+    .about-btn {
+      top: 33rem;
+      right: 4rem;
+    }
+    .ar-main-img {
+      width: 25rem;
+      margin-right: 0;
+      position: absolute;
+      top: 18rem;
+      right: 0;
+    }
+    .ar-sub-img {
+      width: 20rem;
+      top: 5rem;
+      left: 0;
+      z-index: 0;
+    }
+  
+  
+    /* lodge */
+    .lodge-logo {
+      height: 23rem;
+      left: 2rem;
+    }
+  
+    /* food */
+    .food-logo {
+      height: 38rem;
+      left: 5rem;
+    }
+  
+    /* program */
+   .program-logo {
+      height: 35rem;
+      left: 4rem;
+    }
+  
+    /* booking */
+    .cb-message {
+      display: block;
+      width: 85%;
+      margin: 8rem auto;
+      font-size: 1.4rem;
+      line-height: 3rem;
+      letter-spacing: .2rem;
+    }
+    .contact,
+    .booking {
+      display: none;
+    }
+    .x-contact {
+      display: block;
+      width: 80%;
+      margin-left: auto;
+      padding: 1rem 4rem 4rem 1rem;
+    }
+    .x-contact-inner-wrap {
+      width: 80%;
+      margin-right: auto;
+    }
+    .x-contact-title {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .x-contact-subtitle {
+      font-size: 1.5rem;
+      padding-top: .5rem;
+      letter-spacing: normal;
+      text-align: center;
+    }
+    .x-contact-message {
+      margin: 2rem 0 6rem auto;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .x-contact-btn {
+      text-align: center;
+    }
+    .xc-btn {
+      display: inline-block;
+      font-size: 1.6rem;
+    }
+  
+    /* footer */
+    .footer-wrap {
+      display: block;
+      padding: 2rem;
+      font-size: 1.3rem;
+    }
+    .footer-contents {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .f-iroha,
+    .f-contact {
+      display: none;
+    }
+    .x-sns-wrap {
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem auto;
+      width: 70%;
+    }
+    .x-footer-contents {
+      width: 70%;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 2.5rem;
+    }
+    .footer-second {
+      display: none;
+    }
+    .x-footer-second {
+      display: block;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: .5rem 0;
+      text-align: center;
+    }
+  
+  }
+    
