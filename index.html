@@ -19,18 +19,12 @@
 
 
   <!-- header -->
-  <header>
-
-    <div class="header-wrap">
-      
-      <div class="header-logo">
-        <span class="header-subtitle">暮らしの体験宿</span>
+  <header id="header">
+    <div class="header-wrap" id="header-wrap">
         <h1 class="header-title">いろは</h1>
-        <img src="img/smp-title.png" class="smp-title"> <!-- スマホ用タイトル画像 -->
-      </div>
+        <img src="img/smp-title.png" id="smp-title"> <!-- スマホ用タイトル画像 -->
       
       <i class="fas fa-bars open" id="show"></i>
-      <i class="fas fa-times" id="close"></i>
 
       <!-- PC用ナビメニュー -->
       <nav class="nav-menu"> 
@@ -44,9 +38,16 @@
       </nav>
 
     </div> <!-- header-wrap ここまで -->
+  </header>
 
-      <!-- hamburger-menu -->
-      <nav id="hamburger-menu">
+    <!-- hamburger-menu -->
+    <section id="bur-menu-wrap">
+      <div id="bur-header-wrap">
+        <h2 id="bur-header-title">いろは</h2>
+        <img src="img/smp-title.png" id="bar-smp-title">
+        <i class="fas fa-times" id="close"></i>
+      </div>
+      <nav id="bur-menu">
         <ul> 
           <li class="nav-li nm-about"><a href="">About iroha</a></li>
           <li class="nav-li nm-lodge"><a href="">Lodge</a></li> 
@@ -55,21 +56,22 @@
           <li class="nav-li nm-booking"><a href="">Booking</a></li>
         </ul>
         <div class="header-sns-wrap">
-          <img src="img/facebook.png" class="sns-img">
-          <i class="fab fa-instagram top-sns-img"></i>
+          <img src="img/facebook.png" class="top-sns-img">
+          <img src="img/instagram.png" class="top-sns-img">
         </div>
       </nav>
+    </section>
     
-  </header>
   
 
   <!-- top -->
-  <section class="top">
-      <img id="top-image" src="img/top-image1.png">
-      <div class="top-logo">
-        <img src="img/logo-white.png">
-      </div>
-  </section>
+  <div class="top">
+    <img id="top-image" src="img/top-image1.png">
+    <img id="top-image-xs" src="img/smp-bg1.png">
+    <div class="top-logo">
+      <img src="img/logo-white.png">
+    </div>
+  </div>
 
 
   <!-- about -->
@@ -330,14 +332,15 @@
         </p>
         <div class="sns-wrap">
           <img src="img/facebook.png" class="sns-img">
-          <i class="fab fa-instagram"></i>
+          <img src="img/instagram.png" class="sns-img">
         </div>
       </div>
 
       <!-- iPhone X /XS -->
       <div class="x-footer-contents">
         <div class="x-sns-wrap">
-          <img src="img/facebook.png" class="sns-img"><i class="fab fa-instagram"></i>
+          <img src="img/facebook.png" class="sns-img">
+          <img src="img/instagram.png" class="sns-img">
         </div>
 
         <p class="x-footer-message">

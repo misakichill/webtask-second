@@ -3,7 +3,7 @@
 
     /* 全体 */
     .top-wrap {
-      display: block; /* ココで崩れる */
+      display: block; 
       margin: 0;
       width: 100%;
       height: auto;
@@ -45,31 +45,45 @@
   
   
     /* ヘッダー */
-    #hamburger-menu.open {
-      height: 51rem;
+    #bur-menu-wrap {
+      width: 70%;
+      height: 60rem;
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding-bottom: 0;
     }
-    .smp-title {
-      width: 18rem;
+    #smp-title {
+      width: 16rem;
+    }
+    #bar-smp-title {
+      width: 16rem;
     }
     li {
-      font-size: 4vw;
+      font-size: 1.6rem;
       margin: 3rem 0;
     }
     .nav-li:after {
-      font-size: 1.5vw;
+      font-size: 1.2rem;
     }
     .header-sns-wrap {
-      display: block;
+      display: inline-block;
       position: relative;
       margin: 3rem auto;
-      right: 0;
+      right: 1.4rem;
       bottom: 0;
+    }
+    .top-sns-img {
+      width: 6rem;
+      padding-left: 3rem;
     }
   
     /* top */
     #top-image {
-      height: 60rem;
-      object-fit: cover;
+      display: none;
+    }
+    #top-image-xs {
+      display: block;
     }
     .top:before {
       display: none;

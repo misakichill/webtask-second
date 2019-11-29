@@ -136,12 +136,13 @@ body {
     display: inline-block;
     font-size: 2.4vw;
   }
-  .header-subtitle {
-    font-size: 1.6rem;
+  .header-title:before {
+    content: '暮らしの体験宿 ';
+    font-size: 1.5vw;
   }
-  .header-logo:after {
+  .header-title:after {
     display: block;
-    font-size: 1.3rem;
+    font-size: 1.2vw;
     content: '-Yakushima Lodge& Food Atelier-';
   }
   li {
@@ -174,8 +175,8 @@ body {
     content: '-ご予約-';
   }
   /* ヘッダーレスポンシブ対応 */
-  .smp-title,
-  #hamburger-menu, 
+  #smp-title,
+  #bur-menu-wrap, 
   #show, 
   #close {
     display: none;
@@ -200,6 +201,9 @@ body {
   }
   .top-logo > img {
     width: 100%;
+  }
+  #top-image-xs {
+    display: none;
   }
   
   
@@ -387,9 +391,6 @@ body {
     width: 3rem;
     vertical-align: top;
     padding-right: .3rem;
-  }
-  .fa-instagram {
-    font-size: 2.8rem;
   }
   .footer-second {
     background: rgba(0, 0, 0, 0.8);

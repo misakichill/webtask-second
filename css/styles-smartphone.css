@@ -71,17 +71,22 @@
   
   
     /* ヘッダー */
-    .header-subtitle,
     .header-title,
-    .header-logo:after {
+    .header-title:after {
       display: none;
     }
-    #hamburger-menu.open {
+    #bur-header-title {
+      display: none;
+    }
+    #bar-smp-title {
+      width: 12rem;
+    }
+    #bur-menu-wrap{
       height: 40rem;
     }
-    .smp-title {
+    #smp-title {
       display: block;
-      width: 10rem;
+      width: 12rem;
     }
     #show,
     #close {

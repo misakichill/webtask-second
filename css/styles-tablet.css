@@ -22,18 +22,15 @@
     .header {
       height: 5rem;
     }
-    .header-logo:after {
-      font-size: 1rem;
-    }
     .header-title {
       font-size: 1.8rem;
-    }
-    .header-subtitle {
-      font-size: 1.2rem;
     }
     /* ハンバーガーメニュー */
     .nav-menu {
      display: none; 
+    }
+    #show {
+      display: block;
     }
     #show,
     #close {
@@ -41,16 +38,39 @@
       color: #fff;
       cursor: pointer;
     }
-    #hamburger-menu {
+    #bur-menu-wrap {
+      background: rgba(0, 0, 0, 0.7);
+      font-size: 1.4rem;
+      position: fixed;
+      width: 100%;
+      height: auto;
+      z-index: 9999;
       color: #fff;
       text-align: center;
-      margin: 2.8rem 0;
-      position: relative;
+      padding-bottom: 2rem;
     }
-    #hamburger-menu.open,
-    #close.open,
-    #show.open {
+    #bur-header-wrap {
+      max-width: 95%;
+      margin: 1rem auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #bur-header-title {
+      display: inline-block;
+      font-size: 2.4vw;
+    }
+    #bur-header-title:before {
+      content: '暮らしの体験宿 ';
+      font-size: 1.5vw;
+    }
+    #bur-header-title:after {
       display: block;
+      font-size: 1.2vw;
+      content: '-Yakushima Lodge& Food Atelier-';
+    }
+    #bar-smp-title {
+      display: none;
     }
     li {
       display: block;
@@ -66,6 +86,7 @@
       bottom: 1rem;
     }
     .top-sns-img {
+      width: 8vw;
       padding-left: 3rem;
     }
     
