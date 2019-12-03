@@ -1,0 +1,252 @@
+/* スマホ */
+@media screen and (max-width: 414px) {
+
+    /* 全体 */
+    .sec-message {
+      font-size: 1rem;
+      letter-spacing: normal;
+    }
+    .main-btn {
+      font-size:10px;
+      -webkit-transform:scale(0.8);
+      -moz-transform:scale(0.8);
+      -ms-transform:scale(0.8);
+      -o-transform:scale(0.8);
+      transform:scale(0.8);
+      letter-spacing: 0;
+    }
+    .main-btn {
+      padding: .6rem 1.2rem;
+    }
+    .sec-wrap {
+      padding: 3vw 0 10vw 0;
+    }
+    .sec-title {
+      font-size: 2.2rem;
+      font-weight: 300;
+      padding-top: 1rem;
+      position: absolute;
+      z-index: 10;
+      left: 2rem;
+    }
+    .sec-title:after {
+      display: none;
+    }
+    .total-wrap {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .top-wrap {
+      width: 95%;
+      margin-top: 7rem;
+      margin-left: auto;
+      display: block;
+      height: auto;
+    }
+    .top-left,
+    .food-top-right {
+      width: 85%;
+      position: static;
+      margin-left: auto;
+      margin-right: 0;
+    }
+    .top-right,
+    .food-top-left {
+      width: 95%;
+      position: static;
+      margin-bottom: 2rem;
+    }
+    .message-wrap {
+      padding: 2rem;
+      margin-right: 1rem;
+    }
+    .bottom-wrap {
+      width: 100%;
+      margin-top: 5rem;
+    }
+    .btn-wrap {
+      width: 10rem;
+      margin: 3vw 0 2vw auto;
+    }
+  
+  
+    /* ヘッダー */
+    .header-title,
+    .header-title:after {
+      display: none;
+    }
+    #bur-header-title {
+      display: none;
+    }
+    #bar-smp-title {
+      width: 12rem;
+    }
+    #bur-menu-wrap{
+      height: 40rem;
+    }
+    #smp-title {
+      display: block;
+      width: 12rem;
+    }
+    #show,
+    #close {
+      font-size: 5vw;
+    }
+    .header-sns-wrap {
+      display: none;
+    }
+    
+  
+    /* top */
+    .top:before {
+      background: inherit;
+      content: '';
+      filter: blur(1px);
+      position: absolute;
+      top: -1px;  
+      right: -1px;
+      bottom: -1px;
+      left: -1px; 
+    }
+    .top-logo {
+      min-width: 10rem;
+    }
+  
+    /* about */
+    .about {
+      padding-bottom: 5rem;
+    }
+    .gray-box {
+      display: none;
+    }
+    .about-wrap {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+    .about-left {
+      margin-right: 0;
+      position: static;
+    }
+    .about-title {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    .about-message {
+      font-size: 1rem;
+      margin: 2rem 0;
+      line-height: 2rem;
+      letter-spacing: 0;
+    }
+    .about-btn {
+      position: absolute;
+      top: 18rem;
+      right: 4rem;
+    }
+    .about-right {
+      padding-top: 3rem;
+    }
+    .ar-main-img {
+      width: 20rem;
+      margin-left: auto;
+      margin-right: 2rem;
+      padding-bottom: 0;
+    }
+    .ar-sub-img {
+      width: 12rem;
+      top: 10rem;
+      left: 3rem;
+      z-index: 5;
+      padding-bottom: 0;
+    }
+  
+    /* lodge */
+    .lodge-logo {
+      height: 18rem;
+      left: 1rem;
+    }     
+  
+    /* food */
+    .food-logo {
+      height: 30rem;
+      left: 3rem;
+    }
+  
+    /* program */
+    .program-title {
+      font-size: 1.8rem;
+      letter-spacing: .2rem;
+    }
+    .program-logo {
+      height: 20rem;
+      left: 3rem;
+    }
+  
+    /* booking */
+    .cb-message {
+      display: none;
+    }
+    .cb-bottom {
+      display: block;
+    }
+    .contact,
+    .booking {
+      width: 80%;
+      height: auto;
+      margin: 4rem auto;
+      padding: 2rem 2rem 5rem 2rem;
+    }
+    .cb-bottom-title {
+      font-size: 1.6rem;
+      letter-spacing: .1rem;
+      left: -2rem;
+    }
+    .contact-message,
+    .booking-message {
+      padding-top: 4rem;
+      font-size: 1rem;
+    }
+    .contact-btn,
+    .booking-btn {
+      position: absolute;
+      bottom: 2rem;
+      right: -2.2rem;
+      font-size:1rem;
+      -webkit-transform:scale(0.8);
+      -moz-transform:scale(0.8);
+      -ms-transform:scale(0.8);
+      -o-transform:scale(0.8);
+      transform:scale(0.8);
+    }
+    .cb-btn {
+      padding: 1.2rem 4rem;
+    }
+  
+  
+    /* footer */
+    .footer-wrap {
+      padding: 1rem;
+    }
+    .footer-contents {
+      align-items: center;
+    }
+    .footer-title {
+      font-size: 1rem;
+    }
+    .footer-title:after {
+      width: 3rem;
+      height: .1rem;
+      position: absolute;
+    }
+    .footer-message {
+      font-size:1rem;
+      -webkit-transform:scale(0.9);
+      -moz-transform:scale(0.9);
+      -ms-transform:scale(0.9);
+      -o-transform:scale(0.9);
+      transform:scale(0.9);
+    }
+  
+  
+  }
+  
